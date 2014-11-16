@@ -1,0 +1,166 @@
+%header#main-header
+  .wrap
+    #logo Web en Vert
+    %nav#main-nav
+      %ul
+        %li
+          %a.scroll(href='#next-event') Prochaine rencontre
+        %li
+          %a.scroll(href='#what-is-wev') Web en Vert
+        %li
+          %a.scroll(href='#past-events') Précédentes rencontres
+        %li
+          %a.scroll(href='#our-sponsors') Nos Sponsors
+
+%section#top
+  %section#banner.wrap
+    %h1 Nous sommes une communauté de professionnels du Web
+    %h2 réunissant les meilleurs et les plus brillants faiseurs du Web dans la région de Saint-Etienne
+    %a#speaker.btn.blue(href='mailto:hello@webenvert.com') Je veux être un speaker
+    %a#member.btn(href='') Je veux être un membre
+
+  %section#next-event.wrap
+    %h3 Notre prochaine rencontre
+    %em#subheader Rejoignez-nous, ce sera bon !
+    %section#ticket
+      %header
+        %strong Main Event
+        %h4
+          %a(href='')
+            Mehdi Lahmam — Remote
+      %section
+        %div
+          %strong Tarif
+          %em Gratuit
+        %div
+          %strong Date
+          %em 19 novembre 2014
+        %div
+          %strong Heure
+          %em 19:30
+      %footer
+        #location
+          %i.fa.fa-map-marker
+          %a(href='') 1D Lab
+        %span.note Nombre de places limité
+    %a#register.btn(href='') Inscrivez-vous à cette rencontre
+
+  #one.circle
+  #two.circle
+  #three.circle
+
+%section#middle
+  %section#what-is-wev.wrap
+    %header
+      %h3 Web en Vert
+      %hr
+    %section
+      %p Ce sont des rencontres mensuelles informelles entre gens qui font du Web dans la région de Saint-Etienne et du Forez, qui ont envie d'échanger et partager entre eux toutes les bonnes choses du Web.
+      %p Nous sommes persuadés qu'il existe une chouette communauté à faire émerger, et des choses à faire tous ensemble : soirées talks, ateliers pratiques… le tout dans un esprit de convivialité et de partage.
+    %footer
+      %a.btn.blue(href='https://twitter.com/webenvert')
+        %i.fa.fa-twitter
+        Suivez-nous sur Twitter
+
+      %a.btn.blue(href='http://tinyletter.com/webenvert')
+        %i.fa.fa-envelope
+        Inscrivez vous à la newsletter
+
+  %section#community-members.wrap
+    %header
+      %h3 Galapiats
+      %hr
+    %section
+      %ul#members
+
+        %li.block
+          %a(href='https://twitter.com/ClaireReynaud')
+            %img(src='https://pbs.twimg.com/profile_images/486226206933540864/Ef4cWhor_200x200.jpeg')
+
+        %li.block
+          %a(href='https://twitter.com/thexfifix')
+            %img(src='https://pbs.twimg.com/profile_images/521606353727410176/fzgKUx3n_200x200.jpeg')
+
+        %li.block
+          %a(href='https://twitter.com/Cabaroc')
+            %img(src='https://pbs.twimg.com/profile_images/476986432666353664/XMz5Zqlr_200x200.jpeg')
+
+        %li.block
+          %a(href='https://twitter.com/eDenayrolles')
+            %img(src='https://pbs.twimg.com/profile_images/3113576921/35b0d5de5d0071b412473cdfe1271119_200x200.png')
+
+        %li.block
+          %a(href='https://twitter.com/mariasfat')
+            %img(src='https://pbs.twimg.com/profile_images/533189378432978944/UWODVY3z_200x200.jpeg')
+
+        %li.block
+          %a(href='https://twitter.com/ericpetrotto')
+            %img(src='https://pbs.twimg.com/profile_images/482796931236638720/UqEHXn_S_200x200.jpeg')
+
+        %li.block
+          %a(href='https://twitter.com/Matthis_D')
+            %img(src='https://pbs.twimg.com/profile_images/533557436120961024/LpqbTYMi_200x200.jpeg')
+
+        %li.block
+          %a(href='https://twitter.com/kevcha1')
+            %img(src='https://pbs.twimg.com/profile_images/378800000806530694/8fd680be14ce10cec83b57207cadca45_200x200.jpeg')
+
+        %li.block
+          %a(href='https://twitter.com/loicmathaud')
+            %img(src='https://pbs.twimg.com/profile_images/492730932/3998554018_dff3f6f54c_o_200x200.jpg')
+
+        %li.block
+          %a(href='https://twitter.com/biskuit')
+            %img(src='https://pbs.twimg.com/profile_images/748007465/portrait_detente_200x200.jpg')
+
+        %li.block
+          %a(href='https://twitter.com/PPMPurple')
+            %img(src='https://pbs.twimg.com/profile_images/178261065/illustwit2_200x200.jpg')
+
+  %section#past-events.wrap
+    %header
+      %h3 Précédentes rencontres
+      %hr
+    %section
+
+      - (1..4).each do
+        %article
+          .event-image
+            %i.fa.fa-beer
+          %section
+            %h4 Talk et apéro; Speaker TBD
+            %span.location
+              %i.fa.fa-map-marker
+              Lieu
+            %p Description courte de cette rencontre passée avec une petite note sur ce qui s'est dit d'intéressant.
+
+%section#our-sponsors
+  .wrap
+    %header
+      %h3 Nos Sponsors
+      %hr
+    %section
+      %ul#sponsors
+        %li
+          %a(href='')
+            %span logo
+            #sponsor-1
+        %li
+          %a(href='')
+            %span logo
+            #sponsor-2
+
+        %li
+          %a(href='')
+            %span logo
+            #sponsor-3
+
+      %a.btn(href='mailto:hello@webenvert.com') Vous voulez sponsoriser ?
+    %h4 Merci de nous avoir rendu visite. À la prochaine peut-être !
+
+%footer#main-footer
+  %strong
+    Organisé par :
+    %a(href='http://twitter.com/loicmathaud') Loïc Mathaud
+    \-
+    %a(href='http://twitter.com/mehlah') Mehdi Lahmam

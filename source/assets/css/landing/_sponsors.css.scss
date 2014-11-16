@@ -1,0 +1,169 @@
+#our-sponsors {
+  background-color: $wevblue;
+  padding: em(100) 0;
+
+  @include media($mobile) {
+    padding: em(50) 0;
+  }
+
+  header {
+    height: em(40);
+    margin-bottom: em(100);
+    position: relative;
+    text-align: center;
+
+    hr {
+      background-color: transparent;
+      border-top: solid 1px rgba(255,255,255,0.2);
+      border-bottom: solid 1px rgba(255,255,255,0.2);
+      height: 4px;
+      position: relative;
+      top: -52px;
+      z-index: 0;
+    }
+
+    h3 {
+      background-color: $wevblue;
+      color: $white;
+      display: inline-block;
+      font-size: em(36);
+      padding: 0 em(5);
+      position: relative;
+      z-index: 10;
+    }
+
+    @include media($mobile) {
+      margin-bottom: em(50);
+
+      hr {
+        top: -44px;
+      }
+
+      h3 {
+        font-size: em(24);
+      }
+    }
+
+  }
+
+  .btn {
+    @include span-columns(4);
+    @include shift(4);
+    margin-bottom: em(100);
+
+    @include media($tablet-med) {
+      @include span-columns(6);
+      @include shift(3);
+    }
+
+    @include media($tablet-small) {
+      @include span-columns(8);
+      @include shift(2);
+    }
+
+    @include media($mobile) {
+      @include span-columns(12);
+      @include shift(0);
+      margin-bottom: em(50);
+    }
+  }
+
+  h4 {
+    @include span-columns(12);
+    color: $glacier;
+    font-size: em(21);
+    font-family: $sans-serif;
+    font-weight: normal;
+    text-transform: none;
+    text-align: center;
+
+    @include media($tablet-med) {
+      font-size: em(18);
+    }
+
+    @include media($tablet-small) {
+      font-size: em(16);
+    }
+
+    @include media($mobile) {
+      font-size: em(14);
+    }
+  }
+}
+
+ul#sponsors {
+  @include span-columns(12);
+  margin-bottom: em(100);
+
+  @include media($mobile) {
+    margin-bottom: em(50);
+  }
+
+  li {
+    @include span-columns(4 of 12);
+    background-color: rgba(0,0,0,0.4);
+    height: em(220);
+    text-align: center;
+    position: relative;
+
+    @include media($mobile) {
+      @include span-columns(12 of 12);
+      margin-bottom: $base-line-height;
+    }
+
+    &:nth-child(3n+3) {
+      @include omega;
+    }
+
+    &:nth-child(4) {
+      @include shift(2);
+    }
+
+    &:nth-child(4),
+    &:nth-child(5) {
+      margin-top: $base-line-height;
+    }
+
+    a {
+      height: em(220);
+      display: block;
+
+      &:hover {
+        border-bottom: none;
+      }
+    }
+
+    span {
+      @include transition(opacity linear 0.2s);
+      color: $white;
+      font-weight: bold;
+      font-size: em(18);
+      line-height: 220px;
+      opacity: 0;
+    }
+
+    div {
+      @include transition(opacity linear 0.2s);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: em(180);
+      left: 50%;
+      margin-left: - em(90);
+      margin-top: - em(90);
+      opacity: 1.0;
+      position: absolute;
+      top: 50%;
+      width: em(180);
+
+    }
+
+    &:hover {
+      div {
+        opacity: 0;
+      }
+      span {
+        opacity: 1.0;
+      }
+    }
+  }
+}

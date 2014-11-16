@@ -1,0 +1,40 @@
+.wrap {
+  @include outer-container;
+
+  @include media($desktop-med) {
+    padding-right: $gutter;
+    padding-left: $gutter;
+  }
+}
+
+a.btn {
+  @include linear-gradient($terracotta, $mojo);
+  border-radius: 3px;
+  color: $white;
+  height: em(50);
+  line-height: em(50);
+  font-size: em(18);
+  text-align: center;
+
+  &:hover {
+    border-bottom: none;
+    color: $white;
+    @include linear-gradient(lighten($terracotta, 5%), lighten($mojo, 5%));
+  }
+
+  &.blue {
+    @include linear-gradient($river-bed, $oxford-blue);
+
+    &:hover {
+      @include linear-gradient(lighten($river-bed, 5%), lighten($oxford-blue, 5%));
+    }
+  }
+
+  @include media($desktop-small) {
+    font-size: em(16);
+  }
+
+  @include media($mobile) {
+    font-size: em(14);
+  }
+}
