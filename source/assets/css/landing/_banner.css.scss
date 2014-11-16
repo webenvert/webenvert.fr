@@ -4,45 +4,6 @@
   color: $white;
   overflow: hidden;
   position: relative;
-
-  div.circle {
-    border-radius: em(340);
-    border: solid 2px $white;
-    bottom: - em(75);
-    height: em(680);
-    opacity: 0.02;
-    position: absolute;
-    width: em(680);
-    z-index: 0;
-
-    &:before {
-      background-color: $white;
-      border-radius: em(320);
-      content: '';
-      height: em(640);
-      left: em(20);
-      position: absolute;
-      top: em(20);
-      width: em(640);
-    }
-
-    &#one {
-      left: - em(75);
-    }
-
-    &#two {
-      left: 50%;
-      margin-left: - em(320);
-    }
-
-    &#three {
-      right: - em(75);
-    }
-
-    @include media($tablet-small) {
-      display: none;
-    }
-  }
 }
 
 #banner {
