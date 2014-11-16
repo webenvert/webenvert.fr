@@ -46,7 +46,7 @@
 }
 
 #banner {
-  padding: em(200) 0 em(100);
+  padding-top: em(200);
   text-align: center;
 
   @include media($mobile) {
@@ -88,48 +88,10 @@
       font-size: em(14);
     }
   }
-
-  .btn {
-    @include span-columns(3);
-
-    &#speaker {
-      @include shift(3);
-    }
-
-    &:last-child {
-      @include omega;
-    }
-
-    @include media($tablet-med) {
-      @include span-columns(4);
-
-      &#speaker {
-        @include shift(2);
-      }
-    }
-
-    @include media($tablet-small) {
-      @include span-columns(6);
-
-      &#speaker {
-        @include shift(0);
-      }
-    }
-
-    @include media($mobile) {
-      @include span-columns(8);
-      @include shift(2);
-
-      &#speaker {
-        @include shift(2);
-        margin-bottom: $base-line-height;
-      }
-    }
-  }
 }
 
 #next-event {
-  padding: em(100) 0;
+  padding-bottom: em(100);
   text-align: center;
   position: relative;
   z-index: 100;
