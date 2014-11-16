@@ -46,6 +46,7 @@
     }
 
     @include media($mobile) {
+      margin-bottom: 0;
       font-size: em(14);
     }
   }

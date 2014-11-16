@@ -114,8 +114,8 @@
 
     @include media($mobile) {
       a {
-        @include span-columns(8 of 12);
-        @include shift(2);
+        @include span-columns(10 of 12);
+        @include shift(1);
 
         &:first-child {
           margin-bottom: $base-line-height;
