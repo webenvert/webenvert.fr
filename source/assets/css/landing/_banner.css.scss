@@ -65,25 +65,10 @@
   h3 {
     @include span-columns(12);
     font-size: em(36);
+    margin-bottom: em(25);
 
     @include media($mobile) {
       font-size: em(24);
-    }
-  }
-
-  em#subheader {
-    @include span-columns(12);
-    color: $glacier;
-    font-size: em(18);
-    font-weight: normal;
-    font-style: normal;
-    font-family: $sans-serif;
-    margin-bottom: em(75);
-    text-transform: none;
-
-    @include media($mobile) {
-      font-size: em(14);
-      margin-bottom: em(50);
     }
   }
 
@@ -113,7 +98,7 @@
   background-position: center top;
   background-repeat: no-repeat;
   clear: both;
-  height: em(224);
+  height: em(202);
   text-align: left;
   margin: 0 auto em(75);
   width: 530px;
