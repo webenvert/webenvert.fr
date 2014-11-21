@@ -68,49 +68,10 @@
     %section
       %ul#members
 
-        %li.block
-          %a(href='https://twitter.com/ClaireReynaud')
-            %img(src='https://pbs.twimg.com/profile_images/486226206933540864/Ef4cWhor_200x200.jpeg')
-
-        %li.block
-          %a(href='https://twitter.com/thexfifix')
-            %img(src='https://pbs.twimg.com/profile_images/521606353727410176/fzgKUx3n_200x200.jpeg')
-
-        %li.block
-          %a(href='https://twitter.com/Cabaroc')
-            %img(src='https://pbs.twimg.com/profile_images/476986432666353664/XMz5Zqlr_200x200.jpeg')
-
-        %li.block
-          %a(href='https://twitter.com/eDenayrolles')
-            %img(src='https://pbs.twimg.com/profile_images/3113576921/35b0d5de5d0071b412473cdfe1271119_200x200.png')
-
-        %li.block
-          %a(href='https://twitter.com/mariasfat')
-            %img(src='https://pbs.twimg.com/profile_images/533189378432978944/UWODVY3z_200x200.jpeg')
-
-        %li.block
-          %a(href='https://twitter.com/ericpetrotto')
-            %img(src='https://pbs.twimg.com/profile_images/482796931236638720/UqEHXn_S_200x200.jpeg')
-
-        %li.block
-          %a(href='https://twitter.com/Matthis_D')
-            %img(src='https://pbs.twimg.com/profile_images/533557436120961024/LpqbTYMi_200x200.jpeg')
-
-        %li.block
-          %a(href='https://twitter.com/kevcha1')
-            %img(src='https://pbs.twimg.com/profile_images/378800000806530694/8fd680be14ce10cec83b57207cadca45_200x200.jpeg')
-
-        %li.block
-          %a(href='https://twitter.com/loicmathaud')
-            %img(src='https://pbs.twimg.com/profile_images/492730932/3998554018_dff3f6f54c_o_200x200.jpg')
-
-        %li.block
-          %a(href='https://twitter.com/biskuit')
-            %img(src='https://pbs.twimg.com/profile_images/748007465/portrait_detente_200x200.jpg')
-
-        %li.block
-          %a(href='https://twitter.com/PPMPurple')
-            %img(src='https://pbs.twimg.com/profile_images/178261065/illustwit2_200x200.jpg')
+        - data.people.each do |person|
+          %li.block
+            %a(href='#{person.url}')
+              %img(src='#{person.avatar}')
 
   %section#past-events.wrap
     %header
