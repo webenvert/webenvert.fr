@@ -79,16 +79,23 @@
       %hr
     %section
 
-      - (1..4).each do
+      - data.events.reverse!.each do |event|
         %article
-          .event-image
-            %i.fa.fa-beer
           %section
-            %h4 Talk et apéro; Speaker TBD
+            %h4 #{event.title}
             %span.location
               %i.fa.fa-map-marker
-              Lieu
-            %p Description courte de cette rencontre passée avec une petite note sur ce qui s'est dit d'intéressant.
+              #{event.location}
+            %span.date #{event.date}
+            - if !event.description.empty?
+              %p #{event.description}
+            - if event.talks.any?
+              %ul
+              - event.talks.each do |talk|
+                %li
+                  %span.speaker #{talk.speaker}
+                  %span.subject #{talk.subject}
+
 
 %section#our-sponsors
   .wrap

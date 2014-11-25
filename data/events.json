@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Web en Vert #1 - Apéro",
+        "date": "2014-07-03",
+        "location": "Café Jean Jaurès",
+        "description" : "Premier apéro en plein été pour lancer le mouvement. Six personnes et déjà des échanges intéressants.",
+        "talks" : []
+    },
+    {
+        "title": "Web en Vert #2 - Apéro",
+        "date": "2014-08-05",
+        "location": "Café Jean Jaurès",
+        "description" : "Deuxième apéro pour montrer qu'il y a encore du monde en plein mois d'août. Déjà des nouvelles têtes, on approche la dizaine.",
+        "talks" : []
+    },
+    {
+        "title": "Web en Vert #3 - Apéro",
+        "date": "2014-09-09",
+        "location": "Café Jean Jaurès",
+        "description" : "On a pu profiter d'une belle arrière saison pour rester en terrase. Plus de 10 personnes présentes",
+        "talks" : []
+    },
+    {
+        "title": "Web en Vert #4 - Apéro",
+        "date": "2014-10-21",
+        "location": "Brussel's Corner",
+        "description" : "Changement de lieu. Finis les apéros en terrasse. Plus de 10 personnes présentes, des nouvelles têtes. On avance !",
+        "talks" : []
+    },
+    {
+        "title": "Web en Vert #5 - Talks",
+        "date": "2014-11-19",
+        "location": "1D Lab",
+        "description" : "Première soirée organisée avec des présentations. Plus de 20 personnes sont venues chez 1D Lab pour participer, discuter et débattre. Un très bon moment !",
+        "talks" : [
+            {"speaker": "Mehdi et Loïc", "subject": "Présentation Web en Vert"},
+            {"speaker": "Mehdi Lahmam", "subject": "Remote"}
+        ]
+    }
+]
