@@ -79,22 +79,24 @@
       %hr
     %section
 
-      - data.events.reverse!.each do |event|
+      - data.events.reverse.each do |event|
         %article
           %section
             %h4 #{event.title}
+            %span.date
+              %i.fa.fa-calendar-o
+              #{event.date}
             %span.location
               %i.fa.fa-map-marker
               #{event.location}
-            %span.date #{event.date}
-            - if !event.description.empty?
+            - unless event.description.empty?
               %p #{event.description}
-            - if event.talks.any?
-              %ul
-              - event.talks.each do |talk|
-                %li
-                  %span.speaker #{talk.speaker}
-                  %span.subject #{talk.subject}
+            %ul
+            - event.talks.each do |talk|
+              %li
+                %span.speaker #{talk.speaker}
+                %br
+                %span.subject #{talk.subject}
 
 
 %section#our-sponsors

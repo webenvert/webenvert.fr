@@ -163,12 +163,10 @@
 
   article {
     @include span-columns(3 of 12);
+    @include omega(4n);
     background-color: $white;
     border: solid 1px $alto;
-
-    &:nth-child(4) {
-      @include omega;
-    }
+    margin-bottom: $base-line-height;
 
     div.event-image {
       height: em(180);
@@ -189,7 +187,7 @@
 
     section {
       @include clearfix;
-      min-height: em(295);
+      min-height: em(435);
       padding: $base-line-height;
 
       @include media($tablet-med) {
@@ -215,7 +213,7 @@
       }
     }
 
-    .location {
+    .location, .date {
       color: $light-gray;
       display: block;
       font-size: em(13);
@@ -233,9 +231,16 @@
       }
     }
 
-    p {
+    .speaker {
+      font-weight: bold;
+    }
+
+    p, li {
       font-size: em(14);
-      margin-bottom: $base-line-height;
+    }
+
+    li {
+      margin-bottom: $base-line-height / 2;
     }
 
     .btn {
