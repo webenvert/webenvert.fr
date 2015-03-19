@@ -36,5 +36,23 @@
             {"speaker": "Mehdi et Loïc", "subject": "Présentation Web en Vert"},
             {"speaker": "Mehdi Lahmam", "subject": "Remote"}
         ]
+    },
+    {
+        "title": "Web en Vert #6 - Talks",
+        "date": "2014-12-18",
+        "location": "Axome",
+        "description": "De nouveau accueillis par une entreprise locale. Web en Vert commence à se faire connaitre et à plaire aux acteurs locaux. De nouvelles têtes et des débats très enrichissants pour finir l'année !",
+        "talks": [
+            {"speaker": "Loïc Mathaud", "subject": "Présentation de l'IndieWeb"}
+        ]
+    },
+    {
+        "title": "Web en Vert #7 - Talks",
+        "date": "2015-01-28",
+        "location": "BHT",
+        "description": "Test d'un nouveau lieu, le BHT, qui pourrait devenir un QG pour quelques temps : tranquillité, espace et accès facile. La communauté répond encore présente et accueille de nouvelles personnes. L'Atomic Design permet des échanges riches sur les méthodologies de travail. À refaire.",
+        "talks": [
+            {"speaker": "Marie Alhomme", "subject": "Présentation de l'Atomic Design"}
+        ]
     }
 ]
