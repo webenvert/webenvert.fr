@@ -90,13 +90,17 @@
               %i.fa.fa-map-marker
               #{event.location}
             - unless event.description.empty?
-              %p #{event.description}
+              %p
+                :markdown
+                  #{event.description}
             %ul
             - event.talks.each do |talk|
               %li
                 %span.speaker #{talk.speaker}
                 %br
-                %span.subject #{talk.subject}
+                %span.subject
+                  :markdown
+                    #{talk.subject}
 
 
 %section#our-sponsors
