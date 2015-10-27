@@ -89,10 +89,6 @@
             %span.location
               %i.fa.fa-map-marker
               #{event.location}
-            - unless event.description.empty?
-              %p
-                :markdown
-                  #{event.description}
             %ul
             - event.talks.each do |talk|
               %li
