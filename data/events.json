@@ -37,7 +37,7 @@
     "date": "2014-12-18",
     "location": "Axome",
     "talks": [
-      {"speaker": "Loïc Mathaud", "subject": "Présentation de l'IndieWeb"}
+      {"speaker": "Loïc Mathaud", "subject": "Présentation de l'IndieWeb - [Slides](http://loic.mathaud.fr/presentations/2014/presentation-indieweb/)"}
     ]
   },
   {
@@ -53,7 +53,7 @@
     "date": "2015-02-25",
     "location": "BHT",
     "talks": [
-      {"speaker": "Mehdi Lahmam", "subject": "Chef"},
+      {"speaker": "Mehdi Lahmam", "subject": "Chef − [Slides](https://speakerdeck.com/mehlah/cooking-clouds-like-a-chef)"},
       {"speaker": "Loïc Mathaud", "subject": "Fabric"}
     ]
   },
@@ -86,7 +86,7 @@
     "date": "2015-06-24",
     "location": "BHT",
     "talks": [
-      {"speaker": "Mehdi Lahmam", "subject": "Interfaces intuitives"}
+      {"speaker": "Mehdi Lahmam", "subject": "Interfaces intuitives - [Slides](https://speakerdeck.com/mehlah/interfaces-intuitives)"}
     ]
   },
   {
