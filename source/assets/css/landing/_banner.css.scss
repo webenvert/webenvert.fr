@@ -134,7 +134,7 @@
 
   header {
     padding-top: em(15);
-    margin-bottom: $base-line-height / 2;
+    margin-bottom: $base-line-height;
 
     h4 {
       font-size: em(18);
@@ -145,8 +145,6 @@
 
       a {
         color: $wevblue;
-        display: block;
-        margin-bottom: $base-line-height / 4;
       }
     }
 
@@ -168,7 +166,7 @@
   }
 
   section {
-    margin-bottom: $base-line-height / 2;
+    margin-bottom: $base-line-height;
     overflow: hidden;
 
     em {
