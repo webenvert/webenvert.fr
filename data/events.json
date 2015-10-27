@@ -1,120 +1,120 @@
 [
-    {
-        "title": "Web en Vert #1 - Apéro",
-        "date": "2014-07-03",
-        "location": "Café Jean Jaurès",
-        "talks" : []
-    },
-    {
-        "title": "Web en Vert #2 - Apéro",
-        "date": "2014-08-05",
-        "location": "Café Jean Jaurès",
-        "talks" : []
-    },
-    {
-        "title": "Web en Vert #3 - Apéro",
-        "date": "2014-09-09",
-        "location": "Café Jean Jaurès",
-        "talks" : []
-    },
-    {
-        "title": "Web en Vert #4 - Apéro",
-        "date": "2014-10-21",
-        "location": "Brussel's Corner",
-        "talks" : []
-    },
-    {
-        "title": "Web en Vert #5 - Talks",
-        "date": "2014-11-19",
-        "location": "1D Lab",
-        "talks" : [
-            {"speaker": "Mehdi et Loïc", "subject": "Présentation Web en Vert"},
-            {"speaker": "Mehdi Lahmam", "subject": "Remote"}
-        ]
-    },
-    {
-        "title": "Web en Vert #6 - Talks",
-        "date": "2014-12-18",
-        "location": "Axome",
-        "talks": [
-            {"speaker": "Loïc Mathaud", "subject": "Présentation de l'IndieWeb"}
-        ]
-    },
-    {
-        "title": "Web en Vert #7 - Talks",
-        "date": "2015-01-28",
-        "location": "BHT",
-        "talks": [
-            {"speaker": "Marie Alhomme", "subject": "Présentation de l'Atomic Design"}
-        ]
-    },
-    {
-        "title": "Web en Vert #8 - Talks",
-        "date": "2015-02-25",
-        "location": "BHT",
-        "talks": [
-            {"speaker": "Mehdi Lahmam", "subject": "Chef"},
-            {"speaker": "Loïc Mathaud", "subject": "Fabric"}
-        ]
-    },
-    {
-        "title": "Web en Vert #9 - Talks",
-        "date": "2015-03-25",
-        "location": "BHT",
-        "talks": [
-            {"speaker": "Sylvain Gougouzian", "subject": "Gulp.js − [Démo](https://github.com/gouz/webenvert) − [Slides](http://slides.com/gouz/gulp)"}
-        ]
-    },
-    {
-        "title": "Web en Vert #10 - Talks",
-        "date": "2015-04-29",
-        "location": "BHT",
-        "talks": [
-            {"speaker": "Claire Reynaud", "subject": "La Revue de Code − [Slides](http://www.clairereynaud.net/webenvert-revue-de-code/)"}
-        ]
-    },
-    {
-        "title": "Web en Vert #11 - Talks",
-        "date": "2015-05-26",
-        "location": "BHT",
-        "talks": [
-            {"speaker": "Thomas Parisot", "subject": "Application DevOps avec Docker"}
-        ]
-    },
-    {
-        "title": "Web en Vert #12 - Talks",
-        "date": "2015-06-24",
-        "location": "BHT",
-        "talks": [
-            {"speaker": "Mehdi Lahmam", "subject": "Interfaces intuitives"}
-        ]
-    },
-    {
-        "title": "Web en Vert #13 - Apéro",
-        "date": "2015-07-22",
-        "location": "Café Jean Jaurès",
-        "talks" : []
-    },
-    {
-        "title": "Web en Vert #14 - Apéro",
-        "date": "2015-08-27",
-        "location": "Café Jean Jaurès",
-        "talks" : []
-    },
-    {
-        "title": "Web en Vert S02E01 - Talks",
-        "date": "2015-09-10",
-        "location": "BHT",
-        "talks": [
-            {"speaker": "Rémi Emonet", "subject": "Machine Learning − [Slides](https://github.com/twitwi/Presentation-2015-09-30-ml-webenvert)"}
-        ]
-    },
-    {
-        "title": "Web en Vert S02E02 - Talks",
-        "date": "2015-10-21",
-        "location": "BHT",
-        "talks": [
-            {"speaker": "Pierre Alexandre Piarulli", "subject": "Pair Programming"}
-        ]
-    }
+  {
+    "title": "Web en Vert #1 - Apéro",
+    "date": "2014-07-03",
+    "location": "Café Jean Jaurès",
+    "talks" : []
+  },
+  {
+    "title": "Web en Vert #2 - Apéro",
+    "date": "2014-08-05",
+    "location": "Café Jean Jaurès",
+    "talks" : []
+  },
+  {
+    "title": "Web en Vert #3 - Apéro",
+    "date": "2014-09-09",
+    "location": "Café Jean Jaurès",
+    "talks" : []
+  },
+  {
+    "title": "Web en Vert #4 - Apéro",
+    "date": "2014-10-21",
+    "location": "Brussel's Corner",
+    "talks" : []
+  },
+  {
+    "title": "Web en Vert #5 - Talks",
+    "date": "2014-11-19",
+    "location": "1D Lab",
+    "talks" : [
+      {"speaker": "Mehdi et Loïc", "subject": "Présentation Web en Vert"},
+      {"speaker": "Mehdi Lahmam", "subject": "Remote"}
+    ]
+  },
+  {
+    "title": "Web en Vert #6 - Talks",
+    "date": "2014-12-18",
+    "location": "Axome",
+    "talks": [
+      {"speaker": "Loïc Mathaud", "subject": "Présentation de l'IndieWeb"}
+    ]
+  },
+  {
+    "title": "Web en Vert #7 - Talks",
+    "date": "2015-01-28",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Marie Alhomme", "subject": "Présentation de l'Atomic Design"}
+    ]
+  },
+  {
+    "title": "Web en Vert #8 - Talks",
+    "date": "2015-02-25",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Mehdi Lahmam", "subject": "Chef"},
+      {"speaker": "Loïc Mathaud", "subject": "Fabric"}
+    ]
+  },
+  {
+    "title": "Web en Vert #9 - Talks",
+    "date": "2015-03-25",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Sylvain Gougouzian", "subject": "Gulp.js − [Démo](https://github.com/gouz/webenvert) − [Slides](http://slides.com/gouz/gulp)"}
+    ]
+  },
+  {
+    "title": "Web en Vert #10 - Talks",
+    "date": "2015-04-29",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Claire Reynaud", "subject": "La Revue de Code − [Slides](http://www.clairereynaud.net/webenvert-revue-de-code/)"}
+    ]
+  },
+  {
+    "title": "Web en Vert #11 - Talks",
+    "date": "2015-05-26",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Thomas Parisot", "subject": "Application DevOps avec Docker"}
+    ]
+  },
+  {
+    "title": "Web en Vert #12 - Talks",
+    "date": "2015-06-24",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Mehdi Lahmam", "subject": "Interfaces intuitives"}
+    ]
+  },
+  {
+    "title": "Web en Vert #13 - Apéro",
+    "date": "2015-07-22",
+    "location": "Café Jean Jaurès",
+    "talks" : []
+  },
+  {
+    "title": "Web en Vert #14 - Apéro",
+    "date": "2015-08-27",
+    "location": "Café Jean Jaurès",
+    "talks" : []
+  },
+  {
+    "title": "Web en Vert S02E01 - Talks",
+    "date": "2015-09-10",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Rémi Emonet", "subject": "Machine Learning − [Slides](https://github.com/twitwi/Presentation-2015-09-30-ml-webenvert)"}
+    ]
+  },
+  {
+    "title": "Web en Vert S02E02 - Talks",
+    "date": "2015-10-21",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Pierre Alexandre Piarulli", "subject": "Pair Programming"}
+    ]
+  }
 ]
