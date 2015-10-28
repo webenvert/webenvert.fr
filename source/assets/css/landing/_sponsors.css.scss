@@ -157,6 +157,16 @@ ul#sponsors {
 
     }
 
+    #sponsor-1dlab {
+      @include retina-image('logo-1dlab', 175px 175px, $asset-pipeline: true);
+
+      @include media($tablet-med) {
+        background-size: 100%;
+        margin-left: - em(60);
+        width: em(120);
+      }
+    }
+
     &:hover {
       div {
         opacity: 0;
