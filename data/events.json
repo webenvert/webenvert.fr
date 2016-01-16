@@ -116,5 +116,13 @@
     "talks": [
       {"speaker": "Pierre Alexandre Piarulli", "subject": "Pair Programming"}
     ]
+  },
+  {
+    "title": "Web en Vert S02E03 - Talks",
+    "date": "2015-12-02",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Mehdi Lahmam", "subject": "Refactoring - [Slides](https://speakerdeck.com/mehlah/refactoring-improving-the-design-of-existing-code)"}
+    ]
   }
 ]
