@@ -124,5 +124,14 @@
     "talks": [
       {"speaker": "Mehdi Lahmam", "subject": "Refactoring - [Slides](https://speakerdeck.com/mehlah/refactoring-improving-the-design-of-existing-code)"}
     ]
+  },
+  {
+    "title": "Web en Vert S02E04 - Talks",
+    "date": "2016-01-27",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Marion Couesnon", "subject": "Design et éducation - [Slides](https://speakerdeck.com/marioncouesnon/design-et-education)"},
+      {"speaker": "Mehdi Lahmam", "subject": "How the browser renders a web page - [Slides](https://speakerdeck.com/mehlah/how-the-browser-renders-a-web-page), [Vidéo](https://www.youtube.com/watch?v=cwa0y00at8k)"}
+    ]
   }
 ]
