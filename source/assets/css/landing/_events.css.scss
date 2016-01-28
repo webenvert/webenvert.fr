@@ -168,26 +168,9 @@
     border: solid 1px $alto;
     margin-bottom: $base-line-height;
 
-    div.event-image {
-      height: em(180);
-      overflow: hidden;
-      text-align: center;
-
-      img {
-        height: 100%;
-        width: 100%;
-      }
-
-      i {
-        font-size: em(96);
-        line-height: 180px;
-        color: rgba(0,0,0,0.1);
-      }
-    }
-
     section {
       @include clearfix;
-      min-height: em(295);
+      min-height: em(310);
       padding: $base-line-height;
 
       @include media($tablet-med) {
@@ -195,7 +178,7 @@
       }
 
       @include media($tablet-small) {
-        min-height: em(295);
+        min-height: em(310);
       }
     }
 
