@@ -133,5 +133,14 @@
       {"speaker": "Marion Couesnon", "subject": "Design et éducation - [Slides](https://speakerdeck.com/marioncouesnon/design-et-education)"},
       {"speaker": "Mehdi Lahmam", "subject": "How the browser renders a web page - [Slides](https://speakerdeck.com/mehlah/how-the-browser-renders-a-web-page), [Vidéo](https://www.youtube.com/watch?v=cwa0y00at8k)"}
     ]
+  },
+  {
+    "title": "Web en Vert S02E05 - Talks",
+    "date": "2016-02-24",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Amélie Bernardo-Kent", "subject": "Le design de la confiance sur internet"},
+      {"speaker": "Sylvain Gougouzian", "subject": "Développer une API en 10 minutes avec Lumen - [Slides](https://github.com/gouz/lumen-demo/blob/master/lumen.pdf)"}
+    ]
   }
 ]
