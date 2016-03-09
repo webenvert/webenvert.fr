@@ -139,7 +139,7 @@
     "date": "2016-02-24",
     "location": "BHT",
     "talks": [
-      {"speaker": "Amélie Bernardo-Kent", "subject": "Le design de la confiance sur internet"},
+      {"speaker": "Amélie Bernardo-Kent", "subject": "Design de la confiance sur internet"},
       {"speaker": "Sylvain Gougouzian", "subject": "Développer une API en 10 minutes avec Lumen - [Slides](https://github.com/gouz/lumen-demo/blob/master/lumen.pdf)"}
     ]
   }
