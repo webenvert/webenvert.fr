@@ -142,5 +142,25 @@
       {"speaker": "Amélie Bernardo-Kent", "subject": "Design de la confiance sur internet"},
       {"speaker": "Sylvain Gougouzian", "subject": "Développer une API en 10 minutes avec Lumen - [Slides](https://github.com/gouz/lumen-demo/blob/master/lumen.pdf)"}
     ]
+  },
+  {
+    "title": "Web en Vert S02E06 - Talks",
+    "date": "2016-03-30",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Jean Philippe Cabaroc", "subject": "Le design comme intermédiaire de la relation client"},
+      {"speaker": "Loïc Mathaud", "subject": "Débuter les tests avec Lumen et une API REST"},
+      {"speaker": "Mehdi Lahmam", "subject": "Interviews utilisateurs : conseils pratiques"}
+    ]
+  },
+  {
+    "title": "Web en Vert S02E07 - Talks",
+    "date": "2016-04-27",
+    "location": "BHT",
+    "talks": [
+      {"speaker": "Elodie Gautier", "subject": "Grilles typographiques"},
+      {"speaker": "Marion Lambert", "subject": "Agriculture et web"},
+      {"speaker": "Michael Mazurczak", "subject": "Retour d'XP React / React Native - [Slides](https://dl.dropboxusercontent.com/u/107541759/saintereact.pdf)"}
+    ]
   }
 ]
