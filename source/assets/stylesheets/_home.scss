@@ -1,0 +1,82 @@
+body {
+  padding: $base-spacing 0;
+}
+
+.container {
+  @include outer-container;
+  padding: 0 $gutter;
+}
+
+.section {
+  margin-bottom: $base-spacing * 3;
+}
+
+.intro {
+  @include outer-container;
+  padding: 0 $gutter;
+}
+
+.leader-intro {
+  font-family: $heading-font-family;
+  font-size: modular-scale(4);
+  font-weight: 400;
+  line-height: $heading-line-height;
+  margin: 0;
+}
+
+.next-event {
+  background-color: #ededed;
+  padding: $base-spacing * 2 0;
+
+  h6 {
+    font-weight: 600;
+  }
+}
+
+.next-event-details {
+  margin-bottom: $base-spacing * 2;
+
+  .separator {
+    padding: 0 0.5em;
+  }
+
+  img {
+    display: inline-block;
+    height: 1em;
+  }
+
+  p {
+    font-size: modular-scale(2);
+  }
+}
+
+.next-event-talks {
+  margin-bottom: $base-spacing * 2;
+}
+
+.talks-list {
+  li {
+    font-size: modular-scale(2);
+  }
+}
+
+.next-event-rsvp {
+  margin-bottom: $base-spacing * 2;
+}
+
+.next-event-people {
+  .nvite-widget-heading {
+    font-size: modular-scale(1);
+  }
+}
+
+.past-events {
+  @include outer-container;
+  padding: 0 $gutter;
+}
+
+.events-list {
+  li {
+    font-size: modular-scale(2);
+  }
+}

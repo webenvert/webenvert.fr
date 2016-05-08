@@ -3,11 +3,16 @@ $medium-screen: 600px;
 $large-screen: 900px;
 
 // Typography
-$base-font-family: $font-stack-system;
-$heading-font-family: $base-font-family;
+$base-font-family: join("proxima-nova", $font-stack-helvetica);
+$heading-font-family: join("adelle", $font-stack-georgia);
 
 // Font Sizes
 $base-font-size: 1em;
+
+$bourbon: (
+  "modular-scale-base": 1em,
+  "modular-scale-ratio": $perfect-fourth
+);
 
 // Line height
 $base-line-height: 1.5;

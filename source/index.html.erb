@@ -2,8 +2,46 @@
 title: Page Title
 ---
 
-<div class="delete-me">
+<div class="intro section">
+  <h2>Web en vert</h2>
+  <p class="leader-intro">
+    Nous sommes une communauté de professionnels du web, sur Saint-Etienne et ses alentours.
+    Nous nous rencontrons le dernier mercredi de chaque mois pour partager et échanger autour de nos métiers.
+  </p>
+</div>
+
+<div class="next-event section">
   <div class="container">
-    <h1>You're all set!</h1>
+    <h3>Prochaine rencontre</h3>
+    <div class="next-event-details">
+      <p><%= image_tag 'map_marker.svg' %> Bat. des Hautes Technologies <span class="separator">|</span> Mercredi 25 mai de 19h à 21h</p>
+    </div>
+
+    <div class="next-event-talks">
+      <h6>Conférences du mois</h6>
+      <ul class="talks-list">
+        <li>Introduction à React, par Michael</li>
+        <li>Apprendre à apprendre, par Eric Robert</li>
+        <li>Un titre de talk un poil plus long, par Jean-Philippe Le Gouen</li>
+      </ul>
+    </div>
+
+    <div class="next-event-rsvp">
+      <script async src="//widgets.nvite.com/1.3/button.js" data-resource="db77"></script>
+    </div>
+
+    <div class="next-event-people">
+      <script async src="//widgets.nvite.com/1.3/cards.js" data-resource="db77/guests" data-headline-text=":count galapiats y seront"></script>
+    </div>
   </div>
+</div>
+
+<div class="past-events section">
+  <h3>Précédentes rencontres</h3>
+  <ul class="events-list">
+    <li><a href="">S02E06 — 27 avril 2016</a> (3 talks, 22 participants)</li>
+    <li><a href="">S02E05 — 30 mars 2016</a> (3 talks, 22 participants)</li>
+    <li><a href="">S02E04 — 24 février 2016</a> (3 talks, 33 participants)</li>
+  </ul>
+</div>
 </div>
