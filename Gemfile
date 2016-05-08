@@ -1,12 +1,9 @@
-source 'http://rubygems.org'
+source "https://rubygems.org"
 
-ruby '2.1.4'
-
-gem 'bitters'
-gem 'bourbon'
-gem 'haml'
-gem 'middleman', '~>3.3.6'
-gem 'neat'
-gem 'rack-contrib'
-gem 'rake'
-gem 'unicorn'
+gem "bourbon", "~> 5.0.0.beta"
+gem "middleman", "~> 4.0"
+gem "middleman-autoprefixer"
+gem "middleman-deploy", "= 2.0.0.pre.alpha"
+gem "middleman-livereload"
+gem "middleman-sprockets", "= 4.0.0.rc.2"
+gem "neat"

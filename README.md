@@ -1,6 +1,6 @@
 # Web en Vert
 
-Web en Vert community static website
+Web en Vert community static website.
 
 ## Getting started
 
