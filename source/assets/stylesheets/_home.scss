@@ -16,6 +16,28 @@ body {
   padding: 0 $gutter;
 }
 
+.logo {
+  background-color: $action-color;
+  color: #fff;
+  display: inline-block;
+  padding: 0 0.2em;
+}
+
+.blinking-cursor {
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+
+  50% {
+    color: #fff;
+  }
+}
+
 .leader-intro {
   font-family: $heading-font-family;
   font-size: modular-scale(4);
