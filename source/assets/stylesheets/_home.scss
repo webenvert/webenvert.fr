@@ -25,7 +25,7 @@ body {
 }
 
 .next-event {
-  background-color: #ededed;
+  background-color: $light-gray;
   padding: $base-spacing * 2 0;
 
   h6 {
@@ -62,6 +62,14 @@ body {
 
 .next-event-rsvp {
   margin-bottom: $base-spacing * 2;
+
+  .nvite-rsvp-widget-button-success {
+    background-color: $action-color;
+
+    &:hover {
+      background-color: shade($action-color, 20%);
+    }
+  }
 }
 
 .next-event-people {
