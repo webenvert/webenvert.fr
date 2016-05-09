@@ -64,7 +64,9 @@ body {
 
   img {
     display: inline-block;
-    height: 1em;
+    height: 1.2em;
+    vertical-align: top;
+    padding-right: 0.2em;
   }
 
   p {
@@ -76,9 +78,11 @@ body {
   margin-bottom: $base-spacing * 2;
 }
 
-.talks-list {
+.next-event-talks-list {
   li {
+    border-bottom: 1px solid shade($base-border-color, 20%);
     font-size: modular-scale(2);
+    padding: $small-spacing / 2 0;
   }
 }
 
