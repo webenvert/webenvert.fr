@@ -105,8 +105,51 @@ body {
   padding: 0 $gutter;
 }
 
-.events-list {
-  li {
-    font-size: modular-scale(2);
+.past-events-list {
+  .past-event {
+    border-bottom: 1px solid transparent;
+    border-top: $base-border;
+    padding: $small-spacing 1em $small-spacing 0;
+    position: relative;
+
+    &::before {
+      background-color: $action-color;
+      bottom: -1px;
+      content: '';
+      opacity: 0;
+      position: absolute;
+      right: 100%;
+      top: -1px;
+      width: 10px;
+    }
+
+    &:hover {
+      background-color: tint($light-gray, 80%);
+      border-bottom-color: $base-border-color;
+      margin-left: -1em;
+      padding-left: 1em;
+
+      &::before {
+        opacity: 1;
+      }
+    }
   }
+}
+
+.past-event-link {
+  color: $base-font-color;
+
+  &:hover {
+    color: $action-color;
+  }
+}
+
+.past-event-title {
+  margin-bottom: 0;
+}
+
+.past-event-details {
+  color: $medium-gray;
+  font-size: modular-scale(1);
+  margin: 0;
 }

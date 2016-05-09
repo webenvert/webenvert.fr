@@ -38,10 +38,15 @@ title: Page Title
 
 <div class="past-events section">
   <h3>Précédentes rencontres</h3>
-  <ul class="events-list">
-    <li><a href="">S02E06 — 27 avril 2016</a> (3 talks, 22 participants)</li>
-    <li><a href="">S02E05 — 30 mars 2016</a> (3 talks, 22 participants)</li>
-    <li><a href="">S02E04 — 24 février 2016</a> (3 talks, 33 participants)</li>
+  <ul class="past-events-list">
+    <% data.events.reverse.each do |event| %>
+      <li class="past-event">
+        <% link_to '', class: 'past-event-link' do %>
+          <h5 class="past-event-title"><%= event_title_for(event) %></h5>
+          <p class="past-event-details"><%= event_details_for(event) %></p>
+        <% end %>
+      </li>
+    <% end %>
   </ul>
 </div>
 </div>
