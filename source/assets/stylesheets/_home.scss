@@ -38,6 +38,22 @@ body {
   }
 }
 
+.social-links {
+  float: right;
+}
+
+.social-link {
+  filter: grayscale(100%);
+  margin-left: 1em;
+  opacity: 0.4;
+  transition: 0.3s $base-timing;
+
+  &:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+}
+
 .leader-intro {
   font-family: $heading-font-family;
   font-size: modular-scale(4);
