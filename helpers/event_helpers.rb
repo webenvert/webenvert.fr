@@ -11,7 +11,7 @@ module EventHelpers
 
   def talks_count_for(event)
     if event.data[:talks].present?
-      pluralize(event.data[:talks].size, 'talk')
+      pluralize(event.data[:talks].size, 'présentation')
     else
       '1 apéro'
     end

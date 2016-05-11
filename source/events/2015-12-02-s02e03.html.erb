@@ -17,7 +17,7 @@ talks:
   </div>
 
   <div class="next-event-talks">
-    <h5>Conférences</h5>
+    <h5>Présentations</h5>
     <ul class="next-event-talks-list">
       <% current_page.data.talks.each do |talk| %>
         <li><%= talk.subject %> <%= link_to '(slides)', talk.slides_url if talk.slides_url.present? %> — <%= talk.speaker %> </li>
