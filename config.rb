@@ -1,6 +1,3 @@
-activate :directory_indexes
-activate :autoprefixer
-
 set :relative_links, true
 set :css_dir, "assets/stylesheets"
 set :js_dir, "assets/javascripts"
@@ -13,9 +10,19 @@ configure :development do
 end
 
 configure :build do
-  # Relative assets needed to deploy to GitHub Pages
   activate :relative_assets
 end
+
+activate :autoprefixer
+
+activate :blog do |blog|
+  blog.prefix = "events"
+  blog.sources = "{year}-{month}-{day}-{title}.html"
+  blog.permalink = "{title}"
+  blog.layout = "application"
+end
+
+activate :directory_indexes
 
 activate :deploy do |deploy|
   deploy.build_before = true

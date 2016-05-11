@@ -39,9 +39,9 @@ title: Page Title
 <div class="past-events section">
   <h3>Précédentes rencontres</h3>
   <ul class="past-events-list">
-    <% data.events.reverse.each do |event| %>
+    <% blog.articles.each do |event| %>
       <li class="past-event">
-        <% link_to '', class: 'past-event-link' do %>
+        <% link_to event.url, class: 'past-event-link' do %>
           <h5 class="past-event-title"><%= event_title_for(event) %></h5>
           <p class="past-event-details"><%= event_details_for(event) %></p>
         <% end %>

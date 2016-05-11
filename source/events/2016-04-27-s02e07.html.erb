@@ -1,0 +1,31 @@
+---
+title: S02E07
+date: 2016-04-27
+location: Bat. des Hautes Technologies
+participants_count: 24
+talks:
+  - subject: Grilles typographiques
+    speaker: Elodie Gautier
+  - subject: Agriculture et web
+    speaker: Marion Lambert
+  - subject: Retour d'XP React / React Native
+    speaker: Michael Mazurczak
+    slides_url: https://dl.dropboxusercontent.com/u/107541759/saintereact.pdf
+---
+
+<div class="container">
+  <h3>Web en vert #<%= current_page.data.title %></h3>
+
+  <div class="next-event-details">
+    <p><%= image_tag 'calendar.svg' %> <%= current_page.data.date.strftime('%d-%m-%Y') %> <span class="separator">|</span> <%= image_tag 'map_marker.svg' %> <%= current_page.data.location %></p>
+  </div>
+
+  <div class="next-event-talks">
+    <h5>Conférences</h5>
+    <ul class="next-event-talks-list">
+      <% current_page.data.talks.each do |talk| %>
+        <li><%= talk.subject %> <%= link_to '(slides)', talk.slides_url if talk.slides_url.present? %> — <%= talk.speaker %> </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+---
+title: S02E05
+date: 2016-02-24
+location: Bat. des Hautes Technologies
+participants_count: 30
+talks:
+  - subject: Design de la confiance sur internet
+    speaker: Amélie Bernardo-Kent
+  - subject: Développer une API en 10 minutes avec Lumen
+    speaker: Sylvain Gougouzian
+    slides_url: https://github.com/gouz/lumen-demo/blob/master/lumen.pdf
+---
+
+<div class="container">
+  <h3>Web en vert #<%= current_page.data.title %></h3>
+
+  <div class="next-event-details">
+    <p><%= image_tag 'calendar.svg' %> <%= current_page.data.date.strftime('%d-%m-%Y') %> <span class="separator">|</span> <%= image_tag 'map_marker.svg' %> <%= current_page.data.location %></p>
+  </div>
+
+  <div class="next-event-talks">
+    <h5>Conférences</h5>
+    <ul class="next-event-talks-list">
+      <% current_page.data.talks.each do |talk| %>
+        <li><%= talk.subject %> <%= link_to '(slides)', talk.slides_url if talk.slides_url.present? %> — <%= talk.speaker %> </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
