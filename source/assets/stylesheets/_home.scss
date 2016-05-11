@@ -48,6 +48,10 @@ body {
   opacity: 0.4;
   transition: 0.3s $base-timing;
 
+  img {
+    height: 62px;
+  }
+
   &:hover {
     filter: grayscale(0%);
     opacity: 1;
