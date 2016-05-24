@@ -52,6 +52,11 @@
     border-bottom: 1px solid shade($base-border-color, 20%);
     font-size: modular-scale(2);
     padding: $small-spacing / 2 0;
+
+    &.canceled {
+      opacity: 0.4;
+      text-decoration: line-through;
+    }
   }
 }
 
