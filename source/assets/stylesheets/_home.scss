@@ -34,8 +34,8 @@
   img {
     display: inline-block;
     height: 1.2em;
-    vertical-align: top;
     padding-right: 0.2em;
+    vertical-align: top;
   }
 
   p {
@@ -73,6 +73,8 @@
 }
 
 .next-event-people {
+  margin-bottom: $base-spacing * 2;
+
   .nvite-widget-heading {
     font-size: modular-scale(1);
   }
