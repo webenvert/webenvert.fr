@@ -16,13 +16,13 @@ talks:
 <div class="container">
   <h3>#<%= current_page.data.title %></h3>
 
-  <div class="next-event-details">
+  <div class="event-details">
     <p><%= image_tag 'calendar.svg' %> <%= current_page.data.date.strftime('%d-%m-%Y') %> <span class="separator">|</span> <%= image_tag 'map_marker.svg' %> <%= current_page.data.location %></p>
   </div>
 
-  <div class="next-event-talks">
+  <div class="event-talks">
     <h5>Présentations</h5>
-    <ul class="next-event-talks-list">
+    <ul class="event-talks-list">
       <% current_page.data.talks.each do |talk| %>
         <li><%= talk.subject %> <%= link_to '(slides)', talk.slides_url if talk.slides_url.present? %> — <%= talk.speaker %> </li>
       <% end %>
