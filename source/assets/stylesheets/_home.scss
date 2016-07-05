@@ -19,8 +19,15 @@
   background-color: $light-gray;
   padding: $base-spacing * 2 0;
 
-  h6 {
-    font-weight: 600;
+  .event-talks-list {
+    .talk-title {
+      margin-bottom: 0;
+    }
+
+    .canceled {
+      opacity: 0.4;
+      text-decoration: line-through;
+    }
   }
 }
 

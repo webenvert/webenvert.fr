@@ -21,19 +21,6 @@
   margin-bottom: $base-spacing * 2;
 }
 
-.event-talks-list {
-  li {
-    border-bottom: 1px solid shade($base-border-color, 20%);
-    font-size: modular-scale(2);
-    padding: $small-spacing / 2 0;
-
-    &.canceled {
-      opacity: 0.4;
-      text-decoration: line-through;
-    }
-  }
-}
-
 .event-rsvp {
   margin-bottom: $base-spacing * 2;
 
@@ -52,4 +39,17 @@
   .nvite-widget-heading {
     font-size: modular-scale(1);
   }
+}
+
+.talk-title {
+  border-bottom: 1px solid shade($base-border-color, 20%);
+  font-family: $base-font-family;
+  font-size: modular-scale(2);
+  font-weight: 400;
+  margin-bottom: $base-spacing;
+  padding: $small-spacing 0;
+}
+
+.talk-video {
+  margin-bottom: $base-spacing;
 }

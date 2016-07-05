@@ -7,10 +7,13 @@ talks:
   - subject: "Learn To Learn: facts about learning"
     speaker: Rémi Emonet
     slides_url: https://github.com/twitwi/Presentation-2016-05-25-learntolearn-webenvert/
+    embed_video_url: https://www.youtube.com/embed/vHNZO2Fc5O4
   - subject: Comment ça se passe quand je Googlise ?
     speaker: Nicolas Montes
+    embed_video_url: https://www.youtube.com/embed/Du35Z21faRQ
   - subject: Containers, VMs, Processes… Isolation, performances, I/O… Comment ces technologies fonctionnent et comment les différencier ?
     speaker: Quentin Adam
+    embed_video_url: https://www.youtube.com/embed/hBdS07eRXp8
 ---
 
 <div class="container">
@@ -24,8 +27,19 @@ talks:
     <h5>Présentations</h5>
     <ul class="event-talks-list">
       <% current_page.data.talks.each do |talk| %>
-        <li><%= talk.subject %> <%= link_to '(slides)', talk.slides_url if talk.slides_url.present? %> — <%= talk.speaker %> </li>
+        <li>
+          <h6 class="talk-title"><%= talk.subject %> <%= link_to '(slides)', talk.slides_url if talk.slides_url.present? %> — <%= talk.speaker %></h6>
+          <% if talk.embed_video_url.present? %>
+            <div class="talk-video">
+              <iframe width="560" height="315" src="<%= talk.embed_video_url %>" frameborder="0" allowfullscreen></iframe>
+            </div>
+          <% end %>
+        </li>
       <% end %>
     </ul>
+  </div>
+
+  <div class="event-people">
+    <script async src="//widgets.nvite.com/1.3/cards.js" data-max="100" data-resource="db77/guests" data-headline-text=":count galapiats y étaient"></script>
   </div>
 </div>
