@@ -46,10 +46,11 @@
   font-family: $base-font-family;
   font-size: modular-scale(2);
   font-weight: 400;
-  margin-bottom: $base-spacing;
+  margin-bottom: 0;
   padding: $small-spacing 0;
 }
 
 .talk-video {
   margin-bottom: $base-spacing;
+  margin-top: $base-spacing;
 }

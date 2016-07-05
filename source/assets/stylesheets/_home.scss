@@ -18,17 +18,6 @@
 .next-event {
   background-color: $light-gray;
   padding: $base-spacing * 2 0;
-
-  .event-talks-list {
-    .talk-title {
-      margin-bottom: 0;
-    }
-
-    .canceled {
-      opacity: 0.4;
-      text-decoration: line-through;
-    }
-  }
 }
 
 .past-events {
