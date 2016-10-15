@@ -22,7 +22,9 @@ talks:
     <h5>Présentations</h5>
     <ul class="event-talks-list">
       <% current_page.data.talks.each do |talk| %>
-        <li><%= talk.subject %> <%= link_to '(slides)', talk.slides_url if talk.slides_url.present? %> — <%= talk.speaker %> </li>
+        <li>
+          <h6 class="talk-title"><%= talk.subject %> <%= link_to '(slides)', talk.slides_url if talk.slides_url.present? %> — <%= talk.speaker %></h6>
+        </li>
       <% end %>
     </ul>
   </div>
