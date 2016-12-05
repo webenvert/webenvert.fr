@@ -20,6 +20,17 @@
   padding: $base-spacing * 2 0;
 }
 
+.event-talks-list {
+  li {
+    border-bottom: 1px solid shade($base-border-color, 20%);
+    padding: $base-spacing 0;
+  }
+
+  p {
+    font-size: modular-scale(1);
+  }
+}
+
 .past-events {
   @include outer-container;
   padding: 0 $gutter;

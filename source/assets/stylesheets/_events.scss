@@ -42,12 +42,10 @@
 }
 
 .talk-title {
-  border-bottom: 1px solid shade($base-border-color, 20%);
   font-family: $base-font-family;
   font-size: modular-scale(2);
   font-weight: 400;
-  margin-bottom: 0;
-  padding: $small-spacing 0;
+  margin-top: $small-spacing;
 }
 
 .talk-video {
