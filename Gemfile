@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "bourbon", "~> 5.0.0.beta"
+gem "bourbon", "~> 5.0.0"
 gem "middleman", "~> 4.0"
 gem "middleman-autoprefixer"
 gem "middleman-blog"
