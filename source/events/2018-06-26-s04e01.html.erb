@@ -1,0 +1,23 @@
+---
+title: S04E01
+date: 2018-06-26
+location: 1D Lab
+participants_count: 20
+talks:
+  - subject: Ma touche D bug ? Le DDD c'est quoi ?
+    speaker: Jonathan Greco
+  - subject: L'envers du décor du paiement en ligne
+    speaker: Mehdi Lahmam
+---
+
+ <div class="container">
+   <h3>#<%= current_page.data.title %></h3>
+
+   <%= partial 'event_details' %>
+
+   <%= partial 'event_talks' %>
+
+   <div class="event-people">
+     <script async src="//widgets.nvite.com/1.6/cards.js" data-max="100" data-resource="7egngm/guests" data-headline-text=":count galapiats y étaient"></script>
+   </div>
+ </div>
